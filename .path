@@ -2,4 +2,5 @@
 PATH=/usr/local/share/npm/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=/Applications/MATLAB_R2016a.app/bin:$PATH
+PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin
 export PATH
