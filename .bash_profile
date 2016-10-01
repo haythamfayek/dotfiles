@@ -1,13 +1,14 @@
-# Paths
-export PATH=/usr/local/bin:$PATH
-export PATH=/usr/local/share/python:$PATH
-export PYTHONPATH=/usr/local/lib/python:$PYTHONPATH
-export PATH=/Applications/MATLAB_R2016a.app/bin:$PATH
+# Add Homebrew `/usr/local/bin` and User `~/bin` to the `$PATH`
+PATH=/usr/local/bin:$PATH
+PATH=$HOME/bin:$PATH
+export PATH
 
-# Custom Colors
-export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-export CLICOLOR=1
-export LSCOLORS=ExFxBxDxCxegedabagacad
+# Load the shell dotfiles, and then some:
+# * ~/.path can be used to extend `$PATH`.
+# * ~/.extra can be used for other settings you don’t want to commit.
+for file in ~/.{path,bash_prompt,aliases}; do
+	[ -r "$file" ] && source "$file"
+done
+unset file
 
-# Aliases
-alias ls='ls -GFh'
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

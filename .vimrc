@@ -1,3 +1,7 @@
+execute pathogen#infect()
+" syntax on
+" filetype plugin indent on
+
 " https://github.com/thoughtbot/dotfiles/blob/master/vimrc
 " Leader
 let mapleader = " "
