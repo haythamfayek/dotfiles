@@ -1,0 +1,5 @@
+[user]
+	name = haythamfayek
+	email = haytham.fayek@ieee.org
+[credential]
+	helper = osxkeychain
