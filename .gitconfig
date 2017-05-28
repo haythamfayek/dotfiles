@@ -3,3 +3,5 @@
 	email = haytham.fayek@ieee.org
 [credential]
 	helper = osxkeychain
+[core]
+	excludesfile = /Users/haythamfayek/.gitignore
