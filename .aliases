@@ -24,3 +24,13 @@ alias updatepip='pip freeze --local | grep -v "^\-e" | cut -d = -f 1  | xargs -n
 
 # Update npm
 alias updatenpm='npm update -g'
+
+# Update gem
+alias updategem='gem update'
+
+# Misc
+alias countfiles='ls -F |grep -v / | wc -l'
+
+# Sublime
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
