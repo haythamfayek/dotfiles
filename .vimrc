@@ -1,4 +1,4 @@
-execute pathogen#infect()
+" execute pathogen#infect()
 
 filetype plugin indent on
 syntax enable						" enable syntax processing
@@ -27,4 +27,6 @@ set nowritebackup
 set noswapfile
 
 " let g:airline_theme='base16_solarized'
-colorscheme monokai
+" colorscheme monokai
+"
+se mouse+=							" mouse action after line numbers

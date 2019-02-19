@@ -1,11 +1,11 @@
 # PATH=/usr/local/share/python:$PATH # Not needed as advised by brew
-PATH=/usr/local/opt/python/libexec/bin:$PATH
+# PATH=/usr/local/opt/python/libexec/bin:$PATH
 PATH=/usr/local/share/npm/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=/Applications/MATLAB_R2016a.app/bin:$PATH
+# PATH=/Applications/MATLAB_R2016a.app/bin:$PATH
 PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin
 # PATH=$PATH:/usr/local/Cellar/qt5/5.7.0/bin
 export PATH
 
-export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
-export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/google
+# export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
+# export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/google
