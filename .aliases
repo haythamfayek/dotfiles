@@ -18,14 +18,14 @@ alias lsd='ls -l | grep "^d"'
 alias ls='command ls ${colorflag}'
 
 # Update Brew and Pip
-alias updatebrew='brew update && brew upgrade && brew cleanup && brew doctor'
-alias updatepip3='pip3 freeze --local | grep -v "^\-e" | cut -d = -f 1  | xargs -n1 pip3 install -U'
+alias update-brew='brew update && brew upgrade && brew cleanup && brew doctor'
+alias update-pip3='pip3 freeze --local | grep -v "^\-e" | cut -d = -f 1  | xargs -n1 pip3 install -U'
 
 # Update npm
-alias updatenpm='npm update -g'
+alias update-npm='npm update -g'
 
 # Update gem
-alias updategem='gem update'
+alias update-gem='gem update'
 
 # Misc
 alias countfiles='ls -F |grep -v / | wc -l'
@@ -34,4 +34,4 @@ alias countfiles='ls -F |grep -v / | wc -l'
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # iCloud
-alias icloud="/Users/haythamfayek/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
+export icloud="/Users/$USER/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
