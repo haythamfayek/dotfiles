@@ -34,4 +34,4 @@ alias countfiles='ls -F |grep -v / | wc -l'
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # iCloud
-export icloud="/Users/$USER/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
+icloud="/Users/$USER/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
