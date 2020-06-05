@@ -26,11 +26,11 @@ set colorcolumn=80
 
 set spell spelllang=en_us
 
-let g:vimwiki_list = [{'path': '~/Documents/Github/WikiH', 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{'path': '~/Documents/Repos/WikiH', 'syntax': 'markdown', 'ext': '.md'}]
 
 if &term =~ "ansi"
     let &t_ti = "\<Esc>[?47h"
     let &t_te = "\<Esc>[?47l"
 endif
 
-colorscheme desert
+" colorscheme desert
