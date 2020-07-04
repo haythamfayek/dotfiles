@@ -1,6 +1,10 @@
 # Prompt
 PROMPT='%B%F{26}%n%B%F{161}@%m:%B%F{220}%5~%f%b %# '
 
+# Path
+PATH="/Users/$USER/.gem/ruby/2.6.0/bin:$PATH"
+export PATH
+
 # Aliases
 
 # Detect which `ls` flavor is in use

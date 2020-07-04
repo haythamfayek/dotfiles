@@ -24,7 +24,7 @@ set list
 set listchars=tab:»·,trail:·,nbsp:·
 set colorcolumn=80
 set laststatus=2                    " always show status line at the bottom
-set mouse+=a                        " enable mouse support
+" set mouse+=a                      " enable mouse support
 set noerrorbells visualbell t_vb=   " disable audible bell
 
 set spell spelllang=en_us
