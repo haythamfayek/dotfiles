@@ -4,4 +4,4 @@
 [credential]
 	helper = osxkeychain
 [core]
-	excludesfile = /Users/$USER/.gitignore
+	excludesfile = /Users/$(whoami)/.gitignore
