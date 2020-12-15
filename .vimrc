@@ -8,6 +8,7 @@ set noswapfile
 
 set incsearch                       " search as characters are entered
 set hlsearch                        " highlight matches
+set ignorecase                      " do case insensitive search
 
 set number                          " show line numbers
 set ruler
@@ -29,11 +30,11 @@ set noerrorbells visualbell t_vb=   " disable audible bell
 
 set spell spelllang=en_us
 
-let g:vimwiki_list = [{'path': '~/Documents/Repos/WikiH', 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{'path': '~/Documents/WikiH', 'syntax': 'markdown', 'ext': '.md'}]
 
-if &term =~ "ansi"
-    let &t_ti = "\<Esc>[?47h"
-    let &t_te = "\<Esc>[?47l"
-endif
-
+" packadd! onedark.vim
+" let g:onedark_termcolors=256
+" colorscheme onedark
 colorscheme slate
+
+let python_highlight_all = 1        " enable all Python syntax highlighting features 
